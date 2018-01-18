@@ -2,21 +2,65 @@
   text-align: center;
 }
 
+body {
+  margin: auto;
+  background-color: #fffefb;
+}
+
 h1 {
   font-family: 'Playfair Display', serif;
-  margin: 20px 0 0;
+  margin: 100px 0 0;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', serif;
 }
 
 h2 {
-  font-family: 'Playfair Display', serif;
-  margin: 10px 0;
+  margin: 20px 0;
   font-weight: 100;
   font-size: 20px;
 }
 
 p {
   font-family: 'Heebo', sans-serif;
-  max-width: 800px;
-  margin: auto;
+  max-width: 600px;
+  margin: 10px auto;
   line-height: 1.8em;
+  font-size: 19px;
 }
+
+.sans {
+  font-family: 'Heebo', sans-serif;
+}
+
+.content {
+  display: block;
+  margin: 50px 0 200px;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.main-pic {
+  width: 400px;
+  border-radius: 100%;
+  margin: 50px 0;
+}
+
+
+.extra {
+  font-size: 17px;
+  margin: 0 auto;
+}
+
+.name {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 30px;
+  margin: 0 auto;
+}
+
+.date
+.location
