@@ -30,13 +30,10 @@ p {
   font-size: 19px;
 }
 
-.sans {
-  font-family: 'Heebo', sans-serif;
-}
-
 .content {
   display: block;
   margin: 50px 0 200px;
+  max-width: 95%;
 }
 
 .no-margin {
@@ -44,7 +41,7 @@ p {
 }
 
 .main-pic {
-  width: 400px;
+  max-width: 400px;
   border-radius: 100%;
   margin: 50px 0;
 }
