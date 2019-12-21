@@ -1,5 +1,5 @@
 body {
-    background-color: black;
+    background-color: red;
 }
 
 h1 {
@@ -9,6 +9,11 @@ h1 {
     margin: auto;
     text-align: center;
     padding: 100px;
+}
+
+a.menu-item {
+    color: white;
+    font-size: 100px;
 }
 
 #gallery-wrapper {
@@ -25,68 +30,3 @@ img {
 img:hover {
     transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
-
-
-
-
-/** {*/
-  /*text-align: center;*/
-/*}*/
-
-/*body {*/
-  /*margin: auto;*/
-  /*background-color: #fffefb;*/
-/*}*/
-
-/*h1 {*/
-  /*font-family: 'Playfair Display', serif;*/
-  /*margin: 100px 0 0;*/
-/*}*/
-
-/*h1, h2, h3, h4 {*/
-  /*font-family: 'Playfair Display', serif;*/
-/*}*/
-
-/*h2 {*/
-  /*margin: 20px 0;*/
-  /*font-weight: 100;*/
-  /*font-size: 20px;*/
-/*}*/
-
-/*p {*/
-  /*font-family: 'Heebo', sans-serif;*/
-  /*max-width: 600px;*/
-  /*margin: 10px auto;*/
-  /*line-height: 1.8em;*/
-  /*font-size: 19px;*/
-/*}*/
-
-/*.content {*/
-  /*display: block;*/
-  /*margin: 50px auto 200px;*/
-  /*max-width: 95%;*/
-/*}*/
-
-/*.no-margin {*/
-  /*margin: 0;*/
-/*}*/
-
-/*.main-pic {*/
-  /*display: block;*/
-  /*max-width: 50%;*/
-  /*border-radius: 100%;*/
-  /*margin: 50px auto;*/
-/*}*/
-
-
-/*.extra {*/
-  /*font-size: 17px;*/
-  /*margin: 0 auto;*/
-/*}*/
-
-/*.name {*/
-  /*font-family: 'Playfair Display', serif;*/
-  /*font-style: italic;*/
-  /*font-size: 30px;*/
-  /*margin: 0 auto;*/
-/*}*/
